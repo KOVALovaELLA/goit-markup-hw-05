@@ -495,17 +495,31 @@
               </svg>
             </div>
           </div>
+
           <div class="modal-comment">
-            <label class="modal-label" for="user-text">
+            <label class="modal-label" for="user-comment">
               <span class="modal-label">Comment</span>
             </label>
 
             <textarea
-              name="user-text"
-              id="user-text"
+              name="user-comment"
+              id="user-comment"
               class="modal-textarea"
               placeholder="Text input"
             ></textarea>
+          </div>
+          <div class="modal-checkbox-container">
+            <input
+              type="checkbox"
+              id="user-privacy"
+              value="true"
+              name="user-privacy"
+              class="modal-checkbox-input"
+              class="visually-hidden"
+            />
+            <label for="user-privacy" class="modal-label">
+              I accept the terms and conditions of the</label
+            >
           </div>
 
           <button type="submit" class="modal-button">Send</button>

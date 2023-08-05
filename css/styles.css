@@ -764,6 +764,10 @@ position: relative;
      fill: var(--iris);
 }
 .modal-textarea{
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
     width: 100%;
         height: 120px;
         flex-shrink: 0;
@@ -773,6 +777,8 @@ position: relative;
         outline: transparent;
         padding: 8px 16px;
         resize: none;
+        background-color: transparent;
+        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-textarea:focus {
 
@@ -788,4 +794,10 @@ position: relative;
         line-height: 1.16;
         /* 116.667% */
         letter-spacing: 0.04em;
+}
+.modal-comment{
+    margin-bottom: 16px;
+}
+.modal-checkbox-container{
+    margin-bottom: 24px;
 }
