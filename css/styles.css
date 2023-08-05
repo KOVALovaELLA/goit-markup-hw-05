@@ -801,3 +801,40 @@ position: relative;
 .modal-checkbox-container{
     margin-bottom: 24px;
 }
+
+.modal-label{
+    color: var(--lightslate, #8E8F99);
+        /* Small Text */
+        
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.16;
+        /* 116.667% */
+        letter-spacing: 0.04em;
+        
+}
+.privacy-link{
+    color: var(--iris, #4D5AE5);
+        /* Link Text */
+        
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.16;
+        letter-spacing: 0.04em;
+        text-decoration-line: underline;
+}
+.modal-text-check{
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+    margin-right: 8px;
+    vertical-align: bottom;
+}

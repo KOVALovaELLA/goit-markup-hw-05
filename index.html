@@ -508,16 +508,23 @@
               placeholder="Text input"
             ></textarea>
           </div>
+
           <div class="modal-checkbox-container">
             <input
               type="checkbox"
               id="user-privacy"
               value="true"
               name="user-privacy"
-              class="modal-checkbox-input visually-hidden"
+              class="modal-checkbox-input"
             />
             <label for="user-privacy" class="modal-label">
-              I accept the terms and conditions of the</label
+              <span class="modal-text-check">
+                <svg width="10" height="8" class="check-galka">
+                  <use href="./images/icons.svg#icon-galka"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="" class="privacy-link">Privacy Policy</a></label
             >
           </div>
 
