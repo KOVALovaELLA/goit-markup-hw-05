@@ -640,6 +640,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
         left:50%;
         transform: translate(-50%, -50%) scale(1);
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        padding: 72px 24px 24px 24px;
 }
 .close-button{
     
@@ -674,4 +675,99 @@ background-color: #e7e9fc;
 }
 .modal-close-svg{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-title{
+    font-weight: 500;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.02em;
+        margin-bottom: 16px;
+}
+.modal-input{
+width: 100%;
+height: 40px;
+flex-shrink: 0;    
+border-radius: 4px;
+border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
+margin-bottom: 8px;
+outline: transparent;
+padding: 11px 0px 11px 38px;
+}
+.modal-input:focus{
+    
+        border: 1px solid var(--iris, #4D5AE5);
+}
+/*
+.modal-input::placeholder{
+    color: var(--navyblue-modal, rgba(46, 47, 66, 0.40));
+       
+        
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.16;
+       116.667% 
+        letter-spacing: 0.4em;
+} */
+.modal-button{
+    display: inline-flex;
+        padding: 16px 32px;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 4px;
+            background: var(--iris, #4D5AE5);
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+            
+}
+.modal-label{
+    color: var(--lightslate, #8E8F99);
+        /* Small Text */
+       
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.16;
+        /* 116.667% */
+        letter-spacing: 0.04em;
+}
+.modal-input-icon{
+    position: absolute;
+    left:16px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+
+}
+.modal-input-svg{
+position: relative;
+
+
+}
+.modal-input:focus + .modal-input-icon{
+     fill: var(--iris);
+}
+.modal-textarea{
+    width: 100%;
+        height: 120px;
+        flex-shrink: 0;
+        border-radius: 4px;
+        border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
+        margin-bottom: 8px;
+        outline: transparent;
+        padding: 8px 16px;
+        resize: none;
+}
+.modal-textarea:focus {
+
+    border: 1px solid var(--iris, #4D5AE5);
+}
+.modal-textarea::placeholder{
+    color: var(--navyblue-modal, rgba(46, 47, 66, 0.40));
+        /* Small Text */
+       
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.16;
+        /* 116.667% */
+        letter-spacing: 0.04em;
 }
