@@ -722,6 +722,14 @@ padding: 11px 0px 11px 38px;
             
 }
 .modal-label{
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--client);
+    display: block;
+    margin-bottom: 4px;
+}
+.modal-label-span{
     color: var(--lightslate, #8E8F99);
         /* Small Text */
        
@@ -741,6 +749,7 @@ padding: 11px 0px 11px 38px;
 }
 .modal-input-svg{
 position: relative;
+margin-bottom: 8px;
 
 
 }
