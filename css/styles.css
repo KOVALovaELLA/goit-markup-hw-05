@@ -682,6 +682,8 @@ background-color: #e7e9fc;
         /* 150% */
         letter-spacing: 0.02em;
         margin-bottom: 16px;
+        text-align: center;
+        color: var(--color-headers);
 }
 .modal-input{
 width: 100%;
