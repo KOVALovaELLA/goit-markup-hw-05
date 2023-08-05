@@ -747,9 +747,12 @@ padding: 11px 0px 11px 38px;
     margin-bottom: 11px;
 
 }
+..modal-input-sv {
+    margin-bottom: 8px;
+}
 .modal-input-svg{
 position: relative;
-margin-bottom: 8px;
+
 
 
 }
